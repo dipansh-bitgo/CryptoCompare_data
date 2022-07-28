@@ -26,7 +26,7 @@ jobs:
           
       - name: execute py script # run main.py
         
-        run: python coinsupply.py
+        run: python coin_supply.py
           
       - name: commit files
         run: |
