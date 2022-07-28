@@ -3,6 +3,8 @@ name: run coin_supply.py
 on:
   schedule:
     - cron: '5 16 * * *' # At 16:05 on everyday
+  
+  workflow_dispatch:
 
 jobs:
   build:
